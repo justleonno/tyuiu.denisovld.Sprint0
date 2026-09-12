@@ -11,7 +11,7 @@ namespace tyuiu.denisovld.sprint0.task3.v0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DataService.Sum(7, 9));
+            Console.WriteLine(DataService.Sum(9, 7));
             Console.ReadKey();
         }
     }

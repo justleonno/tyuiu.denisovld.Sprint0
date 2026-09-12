@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D50EB29-3DF7-48B0-B68E-0326730FBA0E}</ProjectGuid>
+    <ProjectGuid>{FA5FCB08-BD98-4B2F-B074-6B9AE92EA332}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>tyuiu.denisovld.sprint0.task3.v0</RootNamespace>
     <AssemblyName>tyuiu.denisovld.sprint0.task3.v0</AssemblyName>
@@ -43,16 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\tyuiu.denisovld.sprint0.task3.v0\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\tyuiu.denisovld.sprint0.task3.v0.lib\tyuiu.denisovld.sprint0.task3.v0.lib.csproj">
+    <ProjectReference Include="..\..\tyuiu.denisovld.sprint0.task3.v0.lib\tyuiu.denisovld.sprint0.task3.v0.lib.csproj">
       <Project>{66222323-3387-41fd-8063-a8306bb42fd9}</Project>
       <Name>tyuiu.denisovld.sprint0.task3.v0.lib</Name>
     </ProjectReference>
