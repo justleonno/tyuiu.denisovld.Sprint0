@@ -55,6 +55,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\tyuiu.denisovld.sprint0.Task2.v0.lib\tyuiu.denisovld.sprint0.Task2.v0.lib.csproj">
+      <Project>{938239e3-1276-4e44-9909-bc1d919ca125}</Project>
+      <Name>tyuiu.denisovld.sprint0.Task2.v0.lib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
