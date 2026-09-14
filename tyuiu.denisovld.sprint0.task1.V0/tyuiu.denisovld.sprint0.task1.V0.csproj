@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A3518DAF-D54A-402C-98BA-7311D59907E5}</ProjectGuid>
+    <ProjectGuid>{39062806-B6A3-4BCD-B590-DF929630D1DA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>tyuiu.denisovld.sprint0.task1.V0</RootNamespace>
     <AssemblyName>tyuiu.denisovld.sprint0.task1.V0</AssemblyName>
