@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B2E574AA-49B8-4747-A610-71A620C8EA17}</ProjectGuid>
+    <ProjectGuid>{C2CE7C2A-D4AE-417A-A365-AD3E24F4269A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>tyuiu.denisovld.sprint0.task2.v0.test</RootNamespace>
@@ -54,12 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\tyuiu.denisovld.sprint0.Task2.v0.lib\tyuiu.denisovld.sprint0.Task2.v0.lib.csproj">
-      <Project>{eaf2f850-bfdc-46cd-b649-cacf17d3a89d}</Project>
-      <Name>tyuiu.denisovld.sprint0.Task2.v0.lib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EAF2F850-BFDC-46CD-B649-CACF17D3A89D}</ProjectGuid>
+    <ProjectGuid>{938239E3-1276-4E44-9909-BC1D919CA125}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>tyuiu.denisovld.sprint0.Task2.v0.lib</RootNamespace>
